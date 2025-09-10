@@ -1,11 +1,11 @@
+@import url(//fonts.googleapis.com/earlyaccess/cwtexkai.css);
 @charset "UTF-8";
+
 
 @font-face { 
 	font-family: BopomofoRuby;
 	src: url(BopomofoRuby1909-v1-Regular.ttf);
 }
-
-@import url(//fonts.googleapis.com/earlyaccess/cwtexkai.css);
 
  idiv {display:inline-block;}
 
