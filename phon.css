@@ -9,6 +9,22 @@
 
  idiv {display:inline-block;}
 
+ @media (max-width: 768px) {
+	 .dummy2 
+		{line -height:1;font-size: 2em;font-family: BopomofoRuby, 'cwTeXKai','AR KaiB5', 'KaiTi TW', 'BiauKai';
+			&>idiv { margin:0.05em; line-height:1.15; }
+			& ruby { line-height:1.15; }
+			& rt, & [data-after]::after
+			{
+				font-family:BopomofoRuby;
+				text-orientation: upright;
+				min-width:1em;
+				font-size:26%;
+				text-align:center;	/* chrome */
+			}
+		}
+ }
+
 .dummy2 
 {line -height:1;font-size: 3em;font-family: BopomofoRuby, 'cwTeXKai','AR KaiB5', 'KaiTi TW', 'BiauKai';
 	&>idiv { margin:0.05em; line-height:1.15; }
