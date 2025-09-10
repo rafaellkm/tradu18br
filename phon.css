@@ -10,7 +10,7 @@
  idiv {display:inline-block;}
 
 .dummy2 
-{line -height:1;font-size: 3em;font-family: BopomofoRuby, 'AR KaiB5', 'KaiTi TW', 'BiauKai','cwTeXKai';
+{line -height:1;font-size: 3em;font-family: BopomofoRuby, 'cwTeXKai','AR KaiB5', 'KaiTi TW', 'BiauKai';
 	&>idiv { margin:0.05em; line-height:1.15; }
 	& ruby { line-height:1.15; }
 	& rt, & [data-after]::after
