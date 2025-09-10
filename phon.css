@@ -147,7 +147,6 @@
 ruby {
     align-items: center;
     display: inline-flex;
-    font-family: "Times New Roman", Times, "cwTeXKai", "標楷體", "BiauKai", "DFKai-sb", "TWKai", "Microsoft JhengHei", sans-serif;
     line-height: 1;
     min-height: 1em;
 }
@@ -157,6 +156,7 @@ ruby.en {
 }
 ruby rt {
     display: block;
+    color:#888;
     font-family: "BopomofoRuby", "cwTeXKai", "標楷體", "BiauKai", "DFKai-sb", "TWKai", "Microsoft JhengHei";
     font-size: 30%;
     font-weight: 500;
