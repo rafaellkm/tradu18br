@@ -8,26 +8,12 @@
 }
 
  idiv {display:inline-block;}
-.idiv {display:inline-block;} /* safari 15.6.1 */
+
 
 
 .dummy2 
 {line -height:1;font-size: 3em;font-family: BopomofoRuby, 'cwTeXKai','AR KaiB5', 'KaiTi TW', 'BiauKai';
 	&>idiv { margin:0.05em; line-height:1.15; }
-	& ruby { line-height:1.15; }
-	& rt, & [data-after]::after
-	{
-		font-family:BopomofoRuby;
-		text-orientation: upright;
-		min-width:1em;
-		font-size:26%;
-		text-align:center;	/* chrome */
-	}
-}
-
-.dummy2 /* safari 15.6.1 */
-{line -height:1;font-size: 3em;font-family: BopomofoRuby, 'cwTeXKai','AR KaiB5', 'KaiTi TW', 'BiauKai';
-	&>div.idiv { margin:0.05em; line-height:1.15; }
 	& ruby { line-height:1.15; }
 	& rt, & [data-after]::after
 	{
@@ -55,28 +41,13 @@
 		}
  }
 
- @media (max-width: 768px) { /* safari 15.6.1 */
-	 .dummy2 
-		{line -height:1;font-size: 2em;font-family: BopomofoRuby, 'cwTeXKai','AR KaiB5', 'KaiTi TW', 'BiauKai';
-			&>div.idiv { margin:0.05em; line-height:1.15; }
-			& ruby { line-height:1.15; }
-			& rt, & [data-after]::after
-			{
-				font-family:BopomofoRuby;
-				text-orientation: upright;
-				min-width:1em;
-				font-size:26%;
-				text-align:center;	/* chrome */
-			}
-		}
+.dummy2>idiv { background: url(data:image/gif;base64,R0lGODlhXgBeAIAAANPM/////yH5BAEAAAEALAAAAABeAF4AAAL/hI+py+0PIwq02oszBbr7yn0iZowmeJ5hKpZs+8Kx587aapP5je+of+kBa8BN0SL0EYvJXTO3HB5/06hyasRandjA07aFdr+zMHg8JsfULzbLXEZr3Sm6Ki2v4rX5I3zdx2RnMjhS2HL4kUizp8c3FygF+ehYtdhxedPoF6mUmfGpM1nJOVpKKtjJZcqkCiUBGys7C+t6xiqJOhQaZFvGi+S7Bkx16kecpesp3LbZSnnM/Oaca5wK/WwpXUd9hb27fYfrreyE7BVOeL7evVr+mm7YLva9XO8efU+vrX/L/+4vH8A44/BlE2it2rWBgAruS2iPYbM5tCpavAghnox/aBANgutHkOPBkR8lTnMYkGTEjg8XskxZ8mVIhCo9rqzZMiZOmDcV+uxJTuYwjYrm8bRpjigjlDN3/lKKyWjTn0lBNhRJNSdQpFqrmuTG9KrQNuyskoWqKezEryrKslWHFlQajHTrWiwAADs=) 0 100%/contain no-repeat;
  }
 
 .tb { writing-mode:tb-rl; width:100%; }
 .tb idiv { margin-left:0.4em; line-height:1.15; }
-.tb .idiv { margin-left:0.4em; line-height:1.15; } /* safari 15.6.1 */
 .lr {writing-mode:lr-tb;}
 .lr idiv { margin-bottom:0.2em; }
-.lr .idiv { margin-bottom:0.2em; } /* safari 15.6.1 */
 
 /* 豎標 */
 .v 
@@ -89,20 +60,7 @@
 	{top:0;right:-1.1em;height:3.85em;}
 	& rt { letter-spacing:0; }
 }
-
-.v  /* safari 15.6.1 */
-{
-	& .idiv, &.after [data-after] { height:1em; margin-right:0.4em; }
-	& ruby, & [data-after]::after {
-	writing-mode:vertical-lr;
-	}
-	&.after [data-after]::after
-	{top:0;right:-1.1em;height:3.85em;}
-	& rt { letter-spacing:0; }
-}
-
 .lr.v.after idiv {line-height:0.85;}
-.lr.v.after .idiv {line-height:0.85;} /* safari 15.6.1 */
 
 
 
